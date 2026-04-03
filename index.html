@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>🌟 Job Portal</h1>
+
+  <div class="filters">
+    <input type="text" id="search" placeholder="Search job">
+    
+    <select id="company">
+      <option value="all">All Companies</option>
+    </select>
+    
+    <select id="role">
+      <option value="all">All Roles</option>
+    </select>
+  </div>
+
+  <h2>💼 Available Jobs</h2>
+  <div id="jobs" class="grid"></div>
+
+  <h2>❤️ Saved Jobs</h2>
+  <div id="saved" class="grid"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

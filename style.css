@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  padding: 20px;
+  color: white;
+  margin: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+input, select {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 18px;
+  border-radius: 18px;
+  color: #111827;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  transition: 0.3s;
+}
+
+/* repeat color pattern for all cards */
+.card:nth-child(6n+1) {
+  background: linear-gradient(135deg, #ffe0c3, #ffd6a5);
+}
+
+.card:nth-child(6n+2) {
+  background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+}
+
+.card:nth-child(6n+3) {
+  background: linear-gradient(135deg, #fbcfe8, #f9a8d4);
+}
+
+.card:nth-child(6n+4) {
+  background: linear-gradient(135deg, #e0f2fe, #bae6fd);
+}
+
+.card:nth-child(6n+5) {
+  background: linear-gradient(135deg, #fef3c7, #fde68a);
+}
+
+.card:nth-child(6n) {
+  background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #dbeafe, #e9d5ff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #1e3a8a;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.company {
+  color: #1d4ed8;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.detail {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #1f2937;
+}
+
+.label {
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 8px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.save {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+.apply {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+.remove {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+}
